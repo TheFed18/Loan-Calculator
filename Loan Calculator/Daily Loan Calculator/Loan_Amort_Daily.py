@@ -451,7 +451,8 @@ if st.button("Generate Amortisation Schedule", type="primary"):
                 regular_principal = 0.0
             
             regular_payment = monthly_payment
-        
+          
+          
         elif repayment_structure == "Capitalised Interest":
             # After capitalisation period, treat like equal installments
             regular_principal = monthly_payment - interest
